@@ -1,6 +1,6 @@
 {
   "name": "tke-cron-master-builder",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A simple module that initiates all of the 'cron-master' jobs defined in a given folder.",
   "main": "lib/build-cron.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "devDependencies": {
     "bluebird": "~3.4.6",
     "chai": "~3.5.0",
-    "eslint": "~2.11.1",
+    "eslint": "~5.16.0",
     "istanbul": "~0.4.2",
     "mocha": "~2.4.5",
     "proxyquire": "~1.7.4",
@@ -31,7 +31,7 @@
   "dependencies": {
     "cron-master": "~0.3.0",
     "later": "~1.2.0",
-    "moment": "~2.17.1",
+    "moment": "~2.24.0",
     "rhmap-raygun-nodejs": "git+https://github.com/TkeITMobility/rhmap-raygun-nodejs.git#0.3.0",
     "rhmap-mongodb": "git+https://github.com/MikeyBurkman/rhmap-mongodb.git#v1.0.0",
     "timestring": "~3.2.0",
